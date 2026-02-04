@@ -17,21 +17,53 @@ Por favor, escribe en impersonal las respuestas.
 
 ## 1. ¿Cuáles son las cuatro características básicas de la programación orientada a objetos? Describe brevemente cada una
 
-### Respuesta
+### 1. Abstracción : Consiste en resaltar lo esencial de un objeto y ocultar los detalles irrelevantes.Permite crear modelos conceptuales simples de entidades complejas.Ejemplo: una clase Coche expone métodos como arrancar() o frenar(), pero oculta cómo funciona internamente el motor.
+### 2. Encapsulamiento : Agrupa datos (atributos) y comportamientos (métodos) dentro de una misma unidad: la clase . Protege el estado interno del objeto mediante niveles de acceso (privado, público, protegido). Evita modificaciones indebidas y facilita el mantenimiento.
+### 3. Herencia : Permite que una clase (subclase) herede atributos y métodos de otra (superclase) . Favorece la reutilización de código y la creación de jerarquías lógicas . Ejemplo: Vehículo → Coche, Moto, Camión.
+### 4. Polimorfismo : Habilidad de usar el mismo método con comportamientos distintos según el objeto que lo implemente . Permite escribir código más flexible y extensible . Ejemplo: el método mover() puede comportarse diferente en un Coche y en un Barco.
+
 
 
 ## 2. Cita cuatro lenguajes populares que permitan la programación orientada a objetos
 
-### Respuesta
+### Java , Phyton , C++ y C#
 
 
 ## 3. Los paradigmas anteriores a la POO, ¿Qué es la **programación estructurada**? y, todavía mejor, ¿Qué es la **programación modular**?
 
-### Respuesta
+### Programación estructurada
+### Es un paradigma que surgió para combatir el caos del código lleno de gotos y saltos incontrolados. Su idea central es organizar el programa en bloques lógicos y controlados, usando solo tres estructuras:
+### • 	Secuencia: instrucciones que se ejecutan una tras otra.
+### • 	Selección: decisiones (if, switch).
+### • 	Iteración: repeticiones (for, while).
+### En esencia:
+### • 	Favorece código más legible, predecible y fácil de depurar.
+### • 	Evita saltos arbitrarios.
+### • 	Obliga a pensar en el flujo lógico del programa.
+### Es como pasar de un laberinto lleno de puertas aleatorias a un pasillo con bifurcaciones claras.
+
+### Programación modular
+### La modularidad va un paso más allá de la estructurada. Aquí la idea es dividir el programa en módulos independientes, cada uno responsable de una tarea concreta.
+### Sus principios clave:
+### • 	Cada módulo tiene una responsabilidad clara.
+### • 	Los módulos se comunican mediante interfaces bien definidas.
+### • 	Puedes desarrollar, probar y mantener cada módulo por separado.
+### • 	Facilita la reutilización: un módulo bien hecho sirve en otros programas.
 
 ## 4. ¿Qué tres elementos definen a un objeto en programación orientada a objetos?
 
-### Respuesta
+### 1. Atributos (estado)
+### • 	Representan las características o datos del objeto.
+### • 	Describen cómo es en un momento dado.
+### • 	Ejemplo: en un objeto Coche, los atributos pueden ser color, velocidad, marca.
+### 2. Métodos (comportamiento)
+### • 	Son las acciones que el objeto puede realizar o las operaciones que se pueden ejecutar sobre él.
+### • 	Definen cómo se comporta y cómo interactúa con otros objetos.
+### • 	Ejemplo: acelerar(), frenar(), encender().
+### 3. Identidad
+### • 	Es lo que permite distinguir un objeto de otro, incluso si tienen los mismos atributos.
+### • 	Cada objeto ocupa un lugar único en memoria o tiene un identificador propio.
+### • 	Ejemplo: dos coches idénticos en color y marca siguen siendo objetos distintos.
 
 ## 5. ¿Qué es una clase? ¿Es lo mismo que un objeto? ¿Qué es una instancia? ¿Todos los lenguajes orientados a objetos manejan el concepto de clase?
 
